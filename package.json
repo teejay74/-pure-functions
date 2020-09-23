@@ -27,6 +27,7 @@
     "eslint-plugin-import": "^2.20.2",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.2.0",
+    "husky": "^4.3.0",
     "jest": "^25.4.0",
     "live-server": "^1.2.1",
     "mini-css-extract-plugin": "^0.9.0",
@@ -45,5 +46,10 @@
     "url": "https://github.com/teejay74/pure-functions/issues"
   },
   "homepage": "https://github.com/teejay74/pure-functions#readme",
-  "description": ""
+  "description": "",
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
+  }
 }
