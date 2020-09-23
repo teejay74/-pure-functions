@@ -13,7 +13,7 @@
     "preshow:dist": "npm run build",
     "show:dist": "live-server dist"
   },
-  "author": "coursar",
+  "author": "Teejay74",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -49,7 +49,7 @@
   "description": "",
   "husky": {
     "hooks": {
-      "pre-push": "npm test"
+      "pre-commit": "npm test"
     }
   }
 }

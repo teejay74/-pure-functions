@@ -1,4 +1,4 @@
-import getHealthSort from '../health';
+import getHealthPoints from '../health';
 
 test.each([
   [{ name: 'Маг', health: 51 }, 'healthy'],
